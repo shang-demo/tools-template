@@ -23,14 +23,12 @@ function getCommonConfig() {
     },
     server: {
       src: [
-        '**/*',
-        '!public/**/*',
-        '!views/**/*',
-        '!index.html',
+        '**/*.js',
+        '!config/**/*',
       ],
       opt: {
-        cwd: 'src/',
-        base: 'src/',
+        cwd: './',
+        base: './',
       },
       dest: alterableSetting.basePath,
     },

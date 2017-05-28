@@ -2,7 +2,7 @@
   "dev": {
     "url": "git@github.com:shang-demo/tools-template.git",
     "remote": "template",
-    "branch": "v2"
+    "branch": "template"
   },
   "deploy": {
     "url": "git@gitlab.com:demoshang/tools-projects.git",
