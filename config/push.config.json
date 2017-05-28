@@ -1,0 +1,12 @@
+{
+  "dev": {
+    "url": "git@github.com:shang-demo/tools-template.git",
+    "remote": "template",
+    "branch": "v2"
+  },
+  "deploy": {
+    "url": "git@gitlab.com:demoshang/tools-projects.git",
+    "remote": "prod",
+    "branch": "__package_name__"
+  }
+}
